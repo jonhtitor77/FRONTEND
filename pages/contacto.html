@@ -27,15 +27,20 @@
     
     <main>
         <h3>Formulario</h3>
+        <div id="empty-name-error" class="error"></div>
+        <div id="empty-mail-error"class="error"></div>
+        <div id="empty-msj-error" class="error"></div>
         <form class="Formulario" action="">
-            <label for="Name">Nombre</label><br>
+            <label for="name">Nombre</label><br>
             <input type="name"name="name" id="name" placeholder="su nombre..."><br>
-            <label for="Mail">Email</label><br>
+            <label for="mail">Email</label><br>
             <input type="email" name="mail" id="mail" placeholder="su email..."><br>
             <label for="msj">Mensaje</label><br>
             <textarea cols="20" name="msj" id="msj"  placeholder="aqui su mensaje..."></textarea><br>
-            <input class="boton" type="button" value="Enviar">
+            <button class="boton" id="enviar">Enviar</button>
+            
         </form>
     </main>
+    <script src="../js/contacto.js"></script>
 </body>
 </html>
