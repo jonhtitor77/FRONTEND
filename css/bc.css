@@ -34,7 +34,6 @@ h2 {
 .NavList {
     display: flex;
     justify-content: center;
-    flex-grow: 2;
     gap: 30px;
     flex-wrap: wrap;
     align-items: center;
@@ -97,4 +96,9 @@ h2 {
     background-color: red;
     color: blue;
    }
-   footer
+   
+   .error{
+    text-align: center ;
+    display: flex;
+    justify-content: center;
+   }
